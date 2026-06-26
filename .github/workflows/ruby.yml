@@ -32,7 +32,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
 
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
@@ -41,7 +41,7 @@ jobs:
         bundler-cache: true
 
     - name: Cache Playwright browsers
-      uses: actions/cache@v5
+      uses: actions/cache@v6
       id: playwright-cache
       with:
         path: ~/.cache/ms-playwright
@@ -90,7 +90,7 @@ jobs:
     needs: test
     steps:
     - name: Checkout code
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
 
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
