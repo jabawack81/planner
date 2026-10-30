@@ -60,7 +60,7 @@ gem 'simple_form'
 
 gem 'terser'
 
-gem 'pagy', '~> 43.6'
+gem 'pagy', '~> 43.8'
 
 gem 'icalendar'
 gem 'tzinfo-data'
@@ -139,7 +139,7 @@ gem 'rollbar'
 gem 'scout_apm'
 gem 'rqrcode'
 gem 'prawn'
-gem 'prawn-svg', '~> 0.35'
+gem 'prawn-svg', '~> 0.40'
 
 gem 'carrierwave-aws', '~> 1.6'
 
