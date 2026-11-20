@@ -60,7 +60,7 @@ gem 'simple_form'
 
 gem 'terser'
 
-gem 'pagy', '~> 43.6'
+gem 'pagy', '~> 43.8'
 
 gem 'icalendar'
 gem 'tzinfo-data'
@@ -72,7 +72,7 @@ gem 'commonmarker'
 gem 'faraday'
 gem 'msgpack'
 
-gem 'rails-html-sanitizer', '~> 1.7.1'
+gem 'rails-html-sanitizer', '~> 1.7.2'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 8.0'
@@ -139,7 +139,7 @@ gem 'rollbar'
 gem 'scout_apm'
 gem 'rqrcode'
 gem 'prawn'
-gem 'prawn-svg', '~> 0.35'
+gem 'prawn-svg', '~> 0.40'
 
 gem 'carrierwave-aws', '~> 1.6'
 
